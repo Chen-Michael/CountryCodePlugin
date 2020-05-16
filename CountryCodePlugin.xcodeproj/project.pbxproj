@@ -6,18 +6,71 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		2700A7DB24704CDA006D7166 /* Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2700A7DC24704CDA006D7166 /* Build configuration list for PBXAggregateTarget "Universal" */;
+			buildPhases = (
+				2700A7DF24704CDD006D7166 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Universal;
+			productName = Universal;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		2700A78D246FD1AF006D7166 /* CountryCodePlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 2700A78B246FD1AF006D7166 /* CountryCodePlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2700A794246FD847006D7166 /* CountryCode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2700A793246FD847006D7166 /* CountryCode.storyboard */; };
+		2700A796246FD887006D7166 /* CountryCodeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700A795246FD887006D7166 /* CountryCodeTableViewController.swift */; };
+		2700A798246FDFA6006D7166 /* CountryCodeDeledate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700A797246FDFA6006D7166 /* CountryCodeDeledate.swift */; };
+		2700A79A246FE3E9006D7166 /* CountryCodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700A799246FE3E9006D7166 /* CountryCodeTableViewCell.swift */; };
+		2700A79C246FEBE3006D7166 /* CountryCodeListEN.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2700A79B246FEBE3006D7166 /* CountryCodeListEN.plist */; };
+		2700A79E24702876006D7166 /* CountryCodeListTW.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2700A79D24702876006D7166 /* CountryCodeListTW.plist */; };
+		2700A7A224703037006D7166 /* CountryCodeLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700A7A124703037006D7166 /* CountryCodeLanguage.swift */; };
+		2700A7CA247036FB006D7166 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700A7C9247036FB006D7166 /* AppDelegate.swift */; };
+		2700A7CC247036FB006D7166 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700A7CB247036FB006D7166 /* SceneDelegate.swift */; };
+		2700A7CE247036FB006D7166 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700A7CD247036FB006D7166 /* ViewController.swift */; };
+		2700A7D1247036FB006D7166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2700A7CF247036FB006D7166 /* Main.storyboard */; };
+		2700A7D3247036FC006D7166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2700A7D2247036FC006D7166 /* Assets.xcassets */; };
+		2700A7D6247036FC006D7166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2700A7D4247036FC006D7166 /* LaunchScreen.storyboard */; };
+		2700A7E724705CDA006D7166 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700A7E524705CD9006D7166 /* CustomTableViewCell.swift */; };
+		2700A7E824705CDA006D7166 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2700A7E624705CD9006D7166 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2700A788246FD1AF006D7166 /* CountryCodePlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CountryCodePlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2700A78B246FD1AF006D7166 /* CountryCodePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountryCodePlugin.h; sourceTree = "<group>"; };
 		2700A78C246FD1AF006D7166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2700A793246FD847006D7166 /* CountryCode.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CountryCode.storyboard; sourceTree = "<group>"; };
+		2700A795246FD887006D7166 /* CountryCodeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeTableViewController.swift; sourceTree = "<group>"; };
+		2700A797246FDFA6006D7166 /* CountryCodeDeledate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeDeledate.swift; sourceTree = "<group>"; };
+		2700A799246FE3E9006D7166 /* CountryCodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeTableViewCell.swift; sourceTree = "<group>"; };
+		2700A79B246FEBE3006D7166 /* CountryCodeListEN.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CountryCodeListEN.plist; sourceTree = "<group>"; };
+		2700A79D24702876006D7166 /* CountryCodeListTW.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CountryCodeListTW.plist; sourceTree = "<group>"; };
+		2700A7A124703037006D7166 /* CountryCodeLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeLanguage.swift; sourceTree = "<group>"; };
+		2700A7C7247036FB006D7166 /* CountryCodePluginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountryCodePluginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2700A7C9247036FB006D7166 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2700A7CB247036FB006D7166 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2700A7CD247036FB006D7166 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2700A7D0247036FB006D7166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2700A7D2247036FC006D7166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2700A7D5247036FC006D7166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2700A7D7247036FC006D7166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2700A7E524705CD9006D7166 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		2700A7E624705CD9006D7166 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2700A785246FD1AF006D7166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2700A7C4247036FB006D7166 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				2700A78A246FD1AF006D7166 /* CountryCodePlugin */,
+				2700A7C8247036FB006D7166 /* CountryCodePluginDemo */,
 				2700A789246FD1AF006D7166 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				2700A788246FD1AF006D7166 /* CountryCodePlugin.framework */,
+				2700A7C7247036FB006D7166 /* CountryCodePluginDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,8 +103,31 @@
 			children = (
 				2700A78B246FD1AF006D7166 /* CountryCodePlugin.h */,
 				2700A78C246FD1AF006D7166 /* Info.plist */,
+				2700A793246FD847006D7166 /* CountryCode.storyboard */,
+				2700A795246FD887006D7166 /* CountryCodeTableViewController.swift */,
+				2700A797246FDFA6006D7166 /* CountryCodeDeledate.swift */,
+				2700A799246FE3E9006D7166 /* CountryCodeTableViewCell.swift */,
+				2700A79B246FEBE3006D7166 /* CountryCodeListEN.plist */,
+				2700A79D24702876006D7166 /* CountryCodeListTW.plist */,
+				2700A7A124703037006D7166 /* CountryCodeLanguage.swift */,
 			);
 			path = CountryCodePlugin;
+			sourceTree = "<group>";
+		};
+		2700A7C8247036FB006D7166 /* CountryCodePluginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2700A7C9247036FB006D7166 /* AppDelegate.swift */,
+				2700A7CB247036FB006D7166 /* SceneDelegate.swift */,
+				2700A7CD247036FB006D7166 /* ViewController.swift */,
+				2700A7CF247036FB006D7166 /* Main.storyboard */,
+				2700A7D2247036FC006D7166 /* Assets.xcassets */,
+				2700A7D4247036FC006D7166 /* LaunchScreen.storyboard */,
+				2700A7D7247036FC006D7166 /* Info.plist */,
+				2700A7E524705CD9006D7166 /* CustomTableViewCell.swift */,
+				2700A7E624705CD9006D7166 /* CustomTableViewCell.xib */,
+			);
+			path = CountryCodePluginDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,16 +162,41 @@
 			productReference = 2700A788246FD1AF006D7166 /* CountryCodePlugin.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		2700A7C6247036FB006D7166 /* CountryCodePluginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2700A7DA247036FC006D7166 /* Build configuration list for PBXNativeTarget "CountryCodePluginDemo" */;
+			buildPhases = (
+				2700A7C3247036FB006D7166 /* Sources */,
+				2700A7C4247036FB006D7166 /* Frameworks */,
+				2700A7C5247036FB006D7166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountryCodePluginDemo;
+			productName = CountryCodePluginDemo;
+			productReference = 2700A7C7247036FB006D7166 /* CountryCodePluginDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		2700A77F246FD1AF006D7166 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = Mike;
 				TargetAttributes = {
 					2700A787246FD1AF006D7166 = {
+						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
+					};
+					2700A7C6247036FB006D7166 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					2700A7DB24704CDA006D7166 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
@@ -112,6 +215,8 @@
 			projectRoot = "";
 			targets = (
 				2700A787246FD1AF006D7166 /* CountryCodePlugin */,
+				2700A7C6247036FB006D7166 /* CountryCodePluginDemo */,
+				2700A7DB24704CDA006D7166 /* Universal */,
 			);
 		};
 /* End PBXProject section */
@@ -121,20 +226,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2700A79C246FEBE3006D7166 /* CountryCodeListEN.plist in Resources */,
+				2700A794246FD847006D7166 /* CountryCode.storyboard in Resources */,
+				2700A79E24702876006D7166 /* CountryCodeListTW.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2700A7C5247036FB006D7166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2700A7D6247036FC006D7166 /* LaunchScreen.storyboard in Resources */,
+				2700A7D3247036FC006D7166 /* Assets.xcassets in Resources */,
+				2700A7E824705CDA006D7166 /* CustomTableViewCell.xib in Resources */,
+				2700A7D1247036FB006D7166 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2700A7DF24704CDD006D7166 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2700A784246FD1AF006D7166 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2700A796246FD887006D7166 /* CountryCodeTableViewController.swift in Sources */,
+				2700A79A246FE3E9006D7166 /* CountryCodeTableViewCell.swift in Sources */,
+				2700A798246FDFA6006D7166 /* CountryCodeDeledate.swift in Sources */,
+				2700A7A224703037006D7166 /* CountryCodeLanguage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2700A7C3247036FB006D7166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2700A7CE247036FB006D7166 /* ViewController.swift in Sources */,
+				2700A7CA247036FB006D7166 /* AppDelegate.swift in Sources */,
+				2700A7E724705CDA006D7166 /* CustomTableViewCell.swift in Sources */,
+				2700A7CC247036FB006D7166 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2700A7CF247036FB006D7166 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2700A7D0247036FB006D7166 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2700A7D4247036FC006D7166 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2700A7D5247036FC006D7166 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2700A78E246FD1AF006D7166 /* Debug */ = {
@@ -260,6 +433,7 @@
 		2700A791246FD1AF006D7166 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7H2E5S9D9Y;
@@ -268,6 +442,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CountryCodePlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -276,6 +451,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jiebu-lang.CountryCodePlugin";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +461,7 @@
 		2700A792246FD1AF006D7166 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7H2E5S9D9Y;
@@ -292,6 +470,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CountryCodePlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,8 +479,63 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jiebu-lang.CountryCodePlugin";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2700A7D8247036FC006D7166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H2E5S9D9Y;
+				INFOPLIST_FILE = CountryCodePluginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiebu-lang.CountryCodePluginDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2700A7D9247036FC006D7166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H2E5S9D9Y;
+				INFOPLIST_FILE = CountryCodePluginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiebu-lang.CountryCodePluginDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2700A7DD24704CDA006D7166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H2E5S9D9Y;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2700A7DE24704CDA006D7166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H2E5S9D9Y;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -322,6 +556,24 @@
 			buildConfigurations = (
 				2700A791246FD1AF006D7166 /* Debug */,
 				2700A792246FD1AF006D7166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2700A7DA247036FC006D7166 /* Build configuration list for PBXNativeTarget "CountryCodePluginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2700A7D8247036FC006D7166 /* Debug */,
+				2700A7D9247036FC006D7166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2700A7DC24704CDA006D7166 /* Build configuration list for PBXAggregateTarget "Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2700A7DD24704CDA006D7166 /* Debug */,
+				2700A7DE24704CDA006D7166 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
