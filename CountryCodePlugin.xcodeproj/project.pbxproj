@@ -101,14 +101,13 @@
 		2700A78A246FD1AF006D7166 /* CountryCodePlugin */ = {
 			isa = PBXGroup;
 			children = (
+				2754AB9224708BD60058E153 /* Resources */,
 				2700A78B246FD1AF006D7166 /* CountryCodePlugin.h */,
 				2700A78C246FD1AF006D7166 /* Info.plist */,
 				2700A793246FD847006D7166 /* CountryCode.storyboard */,
 				2700A795246FD887006D7166 /* CountryCodeTableViewController.swift */,
 				2700A797246FDFA6006D7166 /* CountryCodeDeledate.swift */,
 				2700A799246FE3E9006D7166 /* CountryCodeTableViewCell.swift */,
-				2700A79B246FEBE3006D7166 /* CountryCodeListEN.plist */,
-				2700A79D24702876006D7166 /* CountryCodeListTW.plist */,
 				2700A7A124703037006D7166 /* CountryCodeLanguage.swift */,
 			);
 			path = CountryCodePlugin;
@@ -128,6 +127,15 @@
 				2700A7E624705CD9006D7166 /* CustomTableViewCell.xib */,
 			);
 			path = CountryCodePluginDemo;
+			sourceTree = "<group>";
+		};
+		2754AB9224708BD60058E153 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2700A79B246FEBE3006D7166 /* CountryCodeListEN.plist */,
+				2700A79D24702876006D7166 /* CountryCodeListTW.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
