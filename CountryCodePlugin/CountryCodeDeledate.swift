@@ -19,7 +19,7 @@ public protocol CountryCodeDeledate: class {
     
 }
 
-extension CountryCodeDeledate {
+public extension CountryCodeDeledate {
     
     // Default layout of cell
     func makeCountryCodeCell(cell: UITableViewCell, code: String, name: String) -> UITableViewCell {
