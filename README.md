@@ -37,6 +37,7 @@ controller.language = .TW
         
 present(controller, animated: true, completion: nil)
 
+// Implements CountryCodeDeledate
 // Callback after user selection
 func countryCodeDidSelect(code: String, name: String) {
     
