@@ -4,6 +4,9 @@
 [![Platform](https://img.shields.io/cocoapods/p/CountryCodePlugin.svg?style=flat)](./)
 [![License](https://img.shields.io/cocoapods/l/CountryCodePlugin.svg?style=flat)](https://raw.githubusercontent.com/Chen-Michael/CountryCodePlugin/master/LICENSE)
 
+## Example
+![Imgur](https://i.imgur.com/16YMJft.gif)
+
 ## Requirements
 
 - iOS 10.0+
@@ -34,6 +37,7 @@ controller.language = .TW
         
 present(controller, animated: true, completion: nil)
 
+// Implements CountryCodeDeledate
 // Callback after user selection
 func countryCodeDidSelect(code: String, name: String) {
     
