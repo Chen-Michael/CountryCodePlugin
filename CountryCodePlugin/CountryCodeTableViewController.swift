@@ -27,6 +27,15 @@ public class CountryCodeTableViewController: UITableViewController {
                 code.append(item.allKeys[0] as! String)
                 name.append(item.allValues[0] as! String)
             }
+            
+            return
+        }
+        
+        if let URL = Bundle(for: type(of: self)).path(forResource: "CountryCodeList\(language)", ofType: "plist", inDirectory: "Resources"), let list = NSArray(contentsOfFile: URL) as? [NSDictionary] {
+            for item in list {
+                code.append(item.allKeys[0] as! String)
+                name.append(item.allValues[0] as! String)
+            }
         }
     }
     
