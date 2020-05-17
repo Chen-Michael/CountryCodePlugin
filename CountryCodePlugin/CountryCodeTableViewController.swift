@@ -41,7 +41,6 @@ public class CountryCodeTableViewController: UITableViewController {
     
     public override func viewDidLoad() {
         super.viewDidLoad()
-        
         loadData()
     }
     
