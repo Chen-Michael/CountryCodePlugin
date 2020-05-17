@@ -2,7 +2,7 @@
 
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/CountryCodePlugin.svg)](https://cocoapods.org/pods/CountryCodePlugin)
 [![Platform](https://img.shields.io/cocoapods/p/CountryCodePlugin.svg?style=flat)](./)
-[![License](https://img.shields.io/cocoapods/l/CountryCodePlugin.svg?style=flat)](https://raw.githubusercontent.com/AnyImageProject/CountryCodePlugin/master/LICENSE)
+[![License](https://img.shields.io/cocoapods/l/CountryCodePlugin.svg?style=flat)](https://raw.githubusercontent.com/Chen-Michael/CountryCodePlugin/master/LICENSE)
 
 ## Requirements
 
