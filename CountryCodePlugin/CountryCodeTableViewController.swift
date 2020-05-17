@@ -22,10 +22,6 @@ public class CountryCodeTableViewController: UITableViewController {
     }
     
     private func loadData() {
-        print(Bundle(for: type(of: self)).path(forResource: "CountryCodeList\(language)", ofType: "plist") ?? "nil")
-        print(Bundle(for: type(of: self)).path(forResource: "CountryCodeList\(language)", ofType: "plist", inDirectory: "Resources") ?? "nil")
-        print(Bundle(for: type(of: self)).url(forResource: "CountryCodeList\(language)", withExtension: "plist")?.absoluteString ?? "nil")
-        print(Bundle(for: type(of: self)).url(forResource: "CountryCodeList\(language)", withExtension: "plist", subdirectory: "Resources")?.absoluteString ?? "nil")
         if let URL = Bundle(for: type(of: self)).path(forResource: "CountryCodeList\(language)", ofType: "plist"), let list = NSArray(contentsOfFile: URL) as? [NSDictionary] {
             for item in list {
                 code.append(item.allKeys[0] as! String)
